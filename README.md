@@ -155,8 +155,13 @@ The 'Users' metric is flawed. By design, the people who visit the Open Data Port
 ### Top Downloaded Datasets (2024)
 ![Top 10 Downloaded Datasets in 2024](./screenshots/Top_10_Dataset_Downloads_2024.png)
 
-### Donut Chart of Top Sessions by URL Categories
-![Donut chart containing categories with the highest sessions](./screenshots/Donut_chart_URLCategory_Sessions.png)
+### Overall Portal Traffic by Category
+![Overall Portal Traffic by Category](./screenshots/Overall%20Portal%20Traffic%20by%20Category.png)
+
+This donut chart gives a full view of where users spent their time across the Open Data Portal. Dataset pages dominated traffic, accounting for the majority of all sessions—clearly showing that users visit the portal mainly to explore and access data.
+The home page remained the second-largest area of activity, acting as the main gateway for users to navigate deeper into the portal. Catalogue pages, which allow users to browse available datasets, were the next most-visited section.
+Other categories like about, blog, and open-data-license pages made up only a small slice of overall traffic, reinforcing that users are primarily goal-driven: they come to find data, not to browse informational content.
+
 
 <!-- ### (NEEDS UPDATE) Top Referring Domain by Sessions in 2023
 UPDATE DONUT CHART FROM POWERBI -->
