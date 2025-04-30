@@ -230,10 +230,8 @@ The 'Users' metric is flawed. By design, the people who visit the Open Data Port
 | November  | 22,981        | 28,418        | + 23.66%          |
 | December  | 13,075        | 14,120        | + 7.99%           |
 
-### Top Downloaded Datasets (2023)
-![Top 10 Downloaded Datasets in 2023](./screenshots/Top_10_Dataset_Downloads_2023.png)
-### Top Downloaded Datasets (2024)
-![Top 10 Downloaded Datasets in 2024](./screenshots/Top_10_Dataset_Downloads_2024.png)
+From the graph and table above, we can see that in 2024, the City of Toronto’s Open Data portal saw a consistent increase in dataset session activity compared to 2023, with the most significant spike in April. This spike in April corresponds perfectly with the dogs-issued-dangerous-dog-orders dataset as shown [here](#monthly-engagement-with-top-dataset-pages-2024). Overall, monthly sessions in 2024 outperformed those in 2023 across nearly all months, indicating improved engagement with the portal.
+
 
 ### Overall Portal Traffic by Category
 ![Overall Portal Traffic by Category](./screenshots/Overall%20Portal%20Traffic%20by%20Category.png)
@@ -243,14 +241,6 @@ The home page remained the second-largest area of activity, acting as the main g
 Other categories like about, blog, and open-data-license pages made up only a small slice of overall traffic, reinforcing that users are primarily goal-driven: they come to find data, not to browse informational content.
 
 
-<!-- ### (NEEDS UPDATE) Top Referring Domain by Sessions in 2023
-UPDATE DONUT CHART FROM POWERBI -->
-
-### Top Referring Domain by Sessions in 2024
-![Top 5 referring domains by sessions 2024](./screenshots/Top5_Referring_Domains_Sessions_2024.png)
-
-### Word Cloud of Search Terms (2023 & 2024)
-![Word Cloud of Search Terms](./screenshots/Word_Cloud_Search_Term.png)
 ### Word Cloud of Search Terms (2023)
 ![Word Cloud of Search Terms](./screenshots/WordCloud2023.png)
 
@@ -268,6 +258,17 @@ The top search terms by percentage contribution in 2023:
 | campaign contribution  | 670       | 1.42%      |
 | rent reductions        | 614       | 1.30%      |
 | crime                  | 587       | 1.24%      |
+
+<br>
+As we can see in the table and word-cloud above, in 2023, “elections” dominated the search interest in the Open Data portal (8.91%), followed by terms like "TTC", "3D massing" and "neighbourhood".
+
+### Search Term Views Over Time (2023)
+![Top 5 Search Terms Over Time in 2023](./screenshots/Top_5_Search_Terms_2023.png)
+<br>
+
+In 2023, search activity for “elections” showed a dramatic spike in June which is likely related to Toronto's Mayoral By-Election on June 26, 2023. 
+Here is the [Statement from Toronto City Clerk's Office](https://www.toronto.ca/news/statement-from-toronto-city-clerk/).
+
 
 ### Word Cloud of Search Terms (2024)
 ![Word Cloud of Search Terms](./screenshots/WordCloud2024.png)
@@ -287,22 +288,35 @@ The top search terms by percentage contribution in 2024:
 | former municipality boundaries | 713       | 1.44%     |
 | street tree data               | 632       | 1.28%     |
 
-### Search Term Views Over Time (2023)
-![Top 5 Search Terms Over Time in 2023](./screenshots/Top_5_Search_Terms_2023.png)
+<br>
+In 2024, the search behavior shifted toward more transport, infrastructure and planning-related topics, with "TTC" followed by "housing", and "traffic".
+
 ### Search Term Views Over Time (2024)
 ![Top 5 Search Terms Over Time in 2024](./screenshots/Top_5_Search_Terms_2024.png)
 
-Observation: 'elections' search term spikes in the month of June in 2023 and 2024. In 2024, 'elections' again receives high searches in November.
+As discussed previously, user interest was more evenly distributed across top terms like TTC and housing. Interestingly elections also saw noticeable peaks in June and November '24. However, these were significantly lesser searches comapred to 2023. The likely reason behind interest in election in June was likely due to the [Federal By-Election in the electoral district of Toronto-St. Paul](https://www.pm.gc.ca/en/news/news-releases/2024/05/19/prime-minister-announces-election-toronto-st-pauls) on June 24, 2024. In November again there were the [Toronto Muncipal By-Elections for Don Valley West](https://www.toronto.ca/wp-content/uploads/2024/11/9727-Declaration-of-Results-for-the-Councillor-Ward-15-ByElectionfor-posting.pdf) on November 4, 2024, which likely resulted in the second spike.
 
 ### Top 10 Owner Divisions by Views (2023)
 ![Overall Top 10 Owner Divisions by Views (2023)](./screenshots/Top_10_Owner_Division_Views_2023.png)
-### Top 10 Owner Divisions by Views (2024)
-![Overall Top 10 Owner Divisions by Views (2024)](./screenshots/Top_10_Owner_Division_Views_2024.png)
+<br>
+
+Based on the metadata of the datasets, we can further categorize them based on their 'Owner Division' in the city. Through the graph, we can see the top 5 divisions having a similar consistent monthly activity, with over 19k views.
 
 ### Top Owner Divisions Over Time (2023)
 ![Top 5 Owner Divisions Over Time (2023)](./screenshots/./Top_5_Owner_Division_Views_Over_Time_2023.png)
+As discussed previously, a very sharp spike occurred in June for the City Clerk’s Office, likely driven by the 2023 Toronto Mayoral By-Election, pushing it briefly to the top. Transportation Services and Social Development, Finance & Administration maintained high engagement throughout the year, with strong peaks in March and October.
+
+### Top 10 Owner Divisions by Views (2024)
+![Overall Top 10 Owner Divisions by Views (2024)](./screenshots/Top_10_Owner_Division_Views_2024.png)
+<br>
+
+The standout event was an explosive spike in April for Municipal Licensing & Standards, with over 21,000 views, potentially linked to permit cycles or regulatory changes.
+
 ### Top Owner Division Over Time (2024)
 ![Top 5 Owner Divisions Over Time (2024)](./screenshots/Top_5_Owner_Division_Views_Over_Time_2024.png)
+<br>
+
+Viewership patterns in 2024 were more volatile, with higher highs but sharper drops between months compared to 2023. 'Planning' and 'Information & Technology' saw moderate, steady attention, while Transportation Services had stable mid-level activity across the year. Social Development held a consistent presence, peaking in March and November <br>
 
 ### Distribution of Civic Issues by Views (2023)
 ![](./screenshots/Civic_Issues_Donut_2023.png)
@@ -318,6 +332,9 @@ Observation: 'elections' search term spikes in the month of June in 2023 and 202
 |   Affordable housing |      9,197 |      9,977 |        + 8.48% |
 |       Climate change |      6,107 |      7,320 |       + 19.86% |
 |Fiscal responsibility |      3,884 |      4,628 |       + 19.16% |
+
+Further based on the metadata of the datasets, we can see which dataset is associated with which specific civic issue. From the above graphs, and table we can see that mobility remains the dominant concern, reflecting ongoing focus on transit and road infrastructure. Poverty civic issue has a similar number of views in both years.
+
 
 ### File Download Activity by Day of the Week
 ![File Download Activity by Day of the Week](./screenshots/File%20Download%20Activity%20by%20Day%20of%20the%20Week.png)
@@ -362,9 +379,16 @@ This trend reflects the critical role of trusted public and official channels in
 ![Monthly Sessions by Referring Category (2024)](./screenshots/Monthly%20Sessions%20by%20Referring%20Category%20(2024).png)
 
 <br>
-In 2024, Government and Public Services Sites once again led as the primary driver of traffic to the Open Data Portal, with a major surge in April reaching over 20K sessions—the highest monthly spike of the year. This likely coincides with a campaign, report release, or public policy event that increased portal engagement.
-Toronto City sources also showed a strong peak in April, followed by a steadier pace through the rest of the year. Other referring categories such as News and Media Sites, Search Engines, and Open Data Portal (Internal) remained consistently lower but showed subtle increases toward the end of the year, particularly in October and November.
-This data reflects the continued importance of official and city-affiliated platforms in driving citizen engagement with open data.
+In 2024, Government and Public Services Sites once again led as the primary driver of traffic to the Open Data Portal, with a major surge in April reaching over 20K sessions—the highest monthly spike of the year. 
+
+Let's taka a deeper look into these two months.
+
+April '24: <br>
+Several news articles (light blue line in the above graph) relating to dog attacks in Toronto such as this one from [CTV News](https://www.ctvnews.ca/toronto/article/officials-to-visit-all-dangerous-dog-owners-in-toronto-as-new-compliance-measures-go-in-effect/) brought in lots of people to the Open Data Potal. There was also an article at the same time in the [Toronto City website](https://www.toronto.ca/news/city-of-toronto-taking-actions-to-address-dangerous-dog-behaviour/) which links to the Dangerous Dog Orders dataset which clearly brought in extra traffic. 
+
+
+Other categories such as Search Engines, and Uncategorized referrers remained consistently lower but showed subtle increases toward the end of the year, particularly in October and November.
+This data reflects the continued importance of official and city-affiliated platforms in driving engagement with open data.
 
 ### Monthly Trends by Referring Domain (2023)
 ![Monthly Trends by Referring Domain (2023)](./screenshots/Monthly%20Trends%20by%20Referring%20Domain%20(2023).png)
@@ -379,10 +403,11 @@ Together, these trends underline the importance of consistent promotion through 
 ![Monthly Trends by Referring Domain (2024)](./screenshots/Monthly%20Trends%20by%20Referring%20Domain%20(2024).png)
 
 <br>
-This chart breaks down the top five individual domains that brought users to the portal in 2024. open.toronto.ca was the leading referrer throughout the year, with a major traffic spike in April, followed by another high in November. These surges suggest targeted promotions or events hosted on the portal itself.
-www.toronto.ca also showed strong performance, particularly in April, where it nearly matched open.toronto.ca’s session volume. This pattern indicates coordinated city-wide communications driving user engagement.
-Meanwhile, cp24.com (a news media site), google.com, and reddit.com contributed lower but steady traffic. cp24 saw a notable bump in April, possibly tied to news coverage about data or civic issues.
-This chart highlights how both official city channels and broader online platforms played a role in raising awareness and encouraging exploration of the city’s open data in 2024.
+This chart breaks down the top five individual domains that brought users to the portal in 2024. open.toronto.ca was the leading referrer throughout the year, with a major traffic spike in April, followed by another high in November.
+<br>
+
+Let's taka a deeper look into what happened on April 2024: <br> 
+Further diving down into a URL level, we can see traffic from the news website CP24, represented by the purple line in the above graph, possibly tied to coverage about dangerous dog orders. Although as of 2025, the article from CP24 that brought the traffic is nowhere to be found, the following [X Tweet](https://x.com/CP24/status/1783251701102698719) talks about the same issue. There was also a similar article at the same time in the [Toronto City website](https://www.toronto.ca/news/city-of-toronto-taking-actions-to-address-dangerous-dog-behaviour/) which links to the Dangerous Dog Orders dataset which clearly brought in extra traffic. 
 
 
 ### Monthly Engagement with Top 5 Non-Dataset Pages (2023)
@@ -421,6 +446,9 @@ The catalogue category followed a similar pattern, peaking at 13.8K sessions mid
 Other pages like about, blog-post, and open-data-license maintained low but steady usage throughout the week, with slight bumps on weekdays and reduced activity over the weekend.
 This weekday-focused usage trend reinforces that most engagement happens during standard work and research days, especially when users are actively navigating to datasets.
 
+### Top Downloaded Datasets (2023)
+![Top 10 Downloaded Datasets in 2023](./screenshots/Top_10_Dataset_Downloads_2023.png)
+
 ### Monthly Engagement with Top Dataset Pages (2023)
 ![Monthly Engagement with Top Dataset Pages (2023)](./screenshots/Monthly%20Engagement%20with%20Top%20Dataset%20Pages%20(2023).png)
 
@@ -430,11 +458,19 @@ The outbreaks in Toronto healthcare institutions dataset also rose sharply towar
 Meanwhile, datasets like neighbourhood profiles, 3D massing, and neighbourhoods maintained more consistent levels of engagement, though neighbourhood profiles had a noticeable peak in March, possibly aligning with community planning or civic engagement campaigns.
 This chart highlights how city events, seasonal planning, and public issues drive traffic to specific datasets, underscoring the real-world impact of open data consumption patterns.
 
+### Top Downloaded Datasets (2024)
+![Top 10 Downloaded Datasets in 2024](./screenshots/Top_10_Dataset_Downloads_2024.png)
+
 ### Monthly Engagement with Top Dataset Pages (2024)
 ![Monthly Engagement with Top Dataset Pages (2024)](./screenshots/Monthly%20Engagement%20with%20Top%20Dataset%20Pages%20(2024).png)
 
 <br>
-In 2024, the dogs-issued-dangerous-dog-orders dataset saw a dramatic spike in April, reaching 15,000 sessions—by far the highest single-month dataset traffic of the year. This surge likely coincides with heightened public attention or a city council debate around pet safety regulations.
+In 2024, the dogs-issued-dangerous-dog-orders dataset saw a dramatic spike in April, reaching 15,000 sessions—by far the highest single-month dataset traffic of the year. This surge likely coincides with heightened public attention or a city council debate around pet safety regulations. 
+<br>
+
+The dots were further connected when looking at the refferer domains, i.e. the websites where people came from to visit the Open Data portal, [here](#monthly-sessions-by-referring-category-2024). 
+
+<br>
 Following the peak, engagement with that dataset dropped sharply, while overall interest in other datasets remained more stable. The short-term rentals registration dataset peaked in September with 1,800 sessions, reflecting seasonal housing interest or regulatory changes.
 Datasets like neighbourhood profiles, outbreaks in Toronto healthcare institutions, and 3D massing maintained consistent but modest engagement across the year, each contributing to steady ongoing public exploration of local data.
 This chart underscores how public discourse and civic events can sharply drive demand for specific datasets—sometimes turning niche topics into high-traffic content.
