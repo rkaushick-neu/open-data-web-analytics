@@ -210,7 +210,7 @@ Compared to 2023, 2024 saw a broader spread of user interest across multiple pub
 ### Top Datasets by Users of All Time (2023 & 2024)
 ![Bar plot containing the dataset with the highest users](./screenshots/Top_10_Dataset_Users.png)
 
-As expected, the "Dogs Issued Dangerous Dog Orders" dataset topped the chart with 16,188 users. "Short-Term Rentals Registration" and "Neighbourhood Profiles" followed closely behind. Additionally the urban planning and design remained a key theme with “3D Massing” receiving over 8,000 users.
+As expected, the "Dogs Issued Dangerous Dog Orders" dataset topped the chart with 16,188 users. "Short-Term Rentals Registration" and "Neighbourhood Profiles" followed closely behind. Additionally the urban planning and design remained a key theme with "3D Massing" receiving over 8,000 users.
 
 The 'Users' metric is flawed. By design, the people who visit the Open Data Portal are not required to sign up. Therefore the IP Address is used to track unique users. It is possible for people to change their IP Address through VPN software, hence this metric will not be used for future visualizations.
 
@@ -262,13 +262,13 @@ The top search terms by percentage contribution in 2023:
 | crime                  | 587       | 1.24%      |
 
 <br>
-As we can see in the table and word-cloud above, in 2023, “elections” dominated the search interest in the Open Data portal (8.91%), followed by terms like "TTC", "3D massing" and "neighbourhood".
+As we can see in the table and word-cloud above, in 2023, "elections" dominated the search interest in the Open Data portal (8.91%), followed by terms like "TTC", "3D massing" and "neighbourhood".
 
 ### Search Term Views Over Time (2023)
 ![Top 5 Search Terms Over Time in 2023](./screenshots/Top_5_Search_Terms_2023.png)
 <br>
 
-In 2023, search activity for “elections” showed a dramatic spike in June which is likely related to Toronto's Mayoral By-Election on June 26, 2023. 
+In 2023, search activity for "elections" showed a dramatic spike in June which is likely related to Toronto's Mayoral By-Election on June 26, 2023. 
 Here is the [Statement from Toronto City Clerk's Office](https://www.toronto.ca/news/statement-from-toronto-city-clerk/).
 
 
@@ -358,7 +358,7 @@ The steady rise suggests increasing public interest and trust in the portal’s 
 ![Distribution of Sessions by URL Category (2023)](./screenshots/Distribution%20of%20Sessions%20by%20URL%20Category%20(2023).png)
 
 <br>
-This donut chart shows how visitors interacted with different sections of the Open Data Portal in 2023. Nearly half of all sessions (47.5%) were focused on dataset pages, highlighting continued interest in exploring and accessing raw data. The home page accounted for about 32% of traffic, serving as a common entry point. Meanwhile, the catalogue section—used to browse available datasets—saw a strong 17% of sessions. Other areas like the “about” and “contact” pages made up a small share of overall visits.
+This donut chart shows how visitors interacted with different sections of the Open Data Portal in 2023. Nearly half of all sessions (47.5%) were focused on dataset pages, highlighting continued interest in exploring and accessing raw data. The home page accounted for about 32% of traffic, serving as a common entry point. Meanwhile, the catalogue section—used to browse available datasets—saw a strong 17% of sessions. Other areas like the "about" and "contact" pages made up a small share of overall visits.
 This distribution suggests users are primarily visiting the portal to explore datasets directly, with the homepage and catalogue serving as key navigation hubs.
 
 ### Distribution of Sessions by URL Category (2024)
@@ -366,7 +366,7 @@ This distribution suggests users are primarily visiting the portal to explore da
 
 <br>
 In 2024, dataset pages continued to dominate user activity, drawing over 51% of all sessions—an increase from the previous year. The home page remained the second most visited area, accounting for just under 30% of all traffic, while the catalogue section captured 15.8% of sessions.
-Other parts of the site, including informational pages like “about” and “category,” had relatively minor engagement. This growing share of dataset traffic reflects a clear and sustained user intent: most visitors come to the portal to directly engage with the city’s open data.
+Other parts of the site, including informational pages like "about" and "category," had relatively minor engagement. This growing share of dataset traffic reflects a clear and sustained user intent: most visitors come to the portal to directly engage with the city’s open data.
 
 ### Monthly Sessions by Referring Category (2023)
 ![Monthly Sessions by Referring Category (2023)](./screenshots/Monthly%20Sessions%20by%20Referring%20Category%20(2023).png)
@@ -448,9 +448,6 @@ The catalogue category followed a similar pattern, peaking at 13.8K sessions mid
 Other pages like about, blog-post, and open-data-license maintained low but steady usage throughout the week, with slight bumps on weekdays and reduced activity over the weekend.
 This weekday-focused usage trend reinforces that most engagement happens during standard work and research days, especially when users are actively navigating to datasets.
 
-### Top Downloaded Datasets (2023)
-![Top 10 Downloaded Datasets in 2023](./screenshots/Top_10_Dataset_Downloads_2023.png)
-
 ### Monthly Engagement with Top Dataset Pages (2023)
 ![Monthly Engagement with Top Dataset Pages (2023)](./screenshots/Monthly%20Engagement%20with%20Top%20Dataset%20Pages%20(2023).png)
 
@@ -460,8 +457,14 @@ The outbreaks in Toronto healthcare institutions dataset also rose sharply towar
 Meanwhile, datasets like neighbourhood profiles, 3D massing, and neighbourhoods maintained more consistent levels of engagement, though neighbourhood profiles had a noticeable peak in March, possibly aligning with community planning or civic engagement campaigns.
 This chart highlights how city events, seasonal planning, and public issues drive traffic to specific datasets, underscoring the real-world impact of open data consumption patterns.
 
-### Top Downloaded Datasets (2024)
-![Top 10 Downloaded Datasets in 2024](./screenshots/Top_10_Dataset_Downloads_2024.png)
+### Top Downloaded Datasets (2023)
+![Top 10 Downloaded Datasets in 2023](./screenshots/Top_10_Dataset_Downloads_2023.png)
+
+<br>
+In 2023, the "Outbreaks in Toronto Healthcare Institutions" dataset saw a major spike in November, while "Short-Term Rentals Registration" showed steady growth mid-year. Other datasets like "Neighbourhood Profiles" and "3D Massing" had consistent but lower activity throughout the year.
+
+<br>
+An interesting insight we gained between the previous two graphs were that sessions and downloads don’t always match. Users often visit pages without downloading the dataset. Outbreaks in healthcare had high downloads with less frequent sessions, suggesting it’s a high-intent dataset. In contrast, short-term rentals had a spike of around 1,500 sessions in June, out of which there were less than 400 downloads.
 
 ### Monthly Engagement with Top Dataset Pages (2024)
 ![Monthly Engagement with Top Dataset Pages (2024)](./screenshots/Monthly%20Engagement%20with%20Top%20Dataset%20Pages%20(2024).png)
@@ -476,6 +479,12 @@ The dots were further connected when looking at the refferer domains, i.e. the w
 Following the peak, engagement with that dataset dropped sharply, while overall interest in other datasets remained more stable. The short-term rentals registration dataset peaked in September with 1,800 sessions, reflecting seasonal housing interest or regulatory changes.
 Datasets like neighbourhood profiles, outbreaks in Toronto healthcare institutions, and 3D massing maintained consistent but modest engagement across the year, each contributing to steady ongoing public exploration of local data.
 This chart underscores how public discourse and civic events can sharply drive demand for specific datasets—sometimes turning niche topics into high-traffic content.
+
+### Top Downloaded Datasets (2024)
+![Top 10 Downloaded Datasets in 2024](./screenshots/Top_10_Dataset_Downloads_2024.png)
+
+<br>
+Even in 2024, just like in 2023, there was a large gap between the total number of sessions vs the total number of downloads. Many people viewed the datasets but fewer downloaded them. This is especially true in the dangerous dog-orders dataset which had around 15,000 sessions but less than 4,000 downloads. Short-Term Rentals had steady engagement across both metrics.
 
 ### Weekly Engagement with Popular Datasets (2023)
 ![Weekly Engagement with Popular Datasets (2023)](./screenshots/Weekly%20Engagement%20with%20Popular%20Datasets%20(2023).png)
