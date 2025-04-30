@@ -547,6 +547,9 @@ jupyter notebook
 ### 7. Execute the Notebook
 Run the cells in the notebook sequentially to perform the analysis.
 
+### 8. View the Visuals from PowerBI
+Launch PowerBI and open `PowerBI_dashboard.pbix` file. 
+
 ## Documentation
 ### Data Cleaning
 1. For each dataset - segregated summary rows & non summary rows into two different sheets.
