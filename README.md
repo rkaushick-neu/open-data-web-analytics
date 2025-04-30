@@ -4,8 +4,8 @@ Analysis by: Jinesh Dutt, Rishabh Kaushick
 
 ## Aim
 1. To analyze and visualize the existing data.
-2. To identify external data sources to enhance existing visualizations.
-3. To perform predictions on how the data may change over time.
+2. To identify external events or data sources to enhance visualizations.
+3. To discover trends in the data to gain insights on how the data may change over time.
 
 ## Data
 
@@ -209,6 +209,8 @@ Compared to 2023, 2024 saw a broader spread of user interest across multiple pub
 
 ### Top Datasets by Users of All Time (2023 & 2024)
 ![Bar plot containing the dataset with the highest users](./screenshots/Top_10_Dataset_Users.png)
+
+As expected, the "Dogs Issued Dangerous Dog Orders" dataset topped the chart with 16,188 users. "Short-Term Rentals Registration" and "Neighbourhood Profiles" followed closely behind. Additionally the urban planning and design remained a key theme with “3D Massing” receiving over 8,000 users.
 
 The 'Users' metric is flawed. By design, the people who visit the Open Data Portal are not required to sign up. Therefore the IP Address is used to track unique users. It is possible for people to change their IP Address through VPN software, hence this metric will not be used for future visualizations.
 
