@@ -502,7 +502,50 @@ This chart shows how users engaged with key datasets throughout the week in 2024
 Other datasets like neighbourhood profiles, short-term rentals registration, and outbreaks in Toronto healthcare institutions showed steadier patterns, peaking slightly around midweek and decreasing during Saturdays and Sundays.
 As with previous years, the overall trend reveals that dataset exploration is highest during weekdays, reinforcing the role of open data in supporting professional, academic, and civic research during the traditional workweek.
 
+## How to Run the Project
 
+To run this project, follow the steps below:
+
+### 1. Clone the Repository
+Clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/rkaushick-neu/open-data-web-analytics.git
+```
+
+### 2. Navigate to the Project Directory
+Change into the project directory:
+```bash
+cd open-data-web-analytics
+```
+
+### 3. Create a `data` Folder
+Inside the project directory, create a folder named `data`:
+```bash
+mkdir data
+```
+
+### 4. Add Required Files
+Place the following files into the `data` folder:
+- `File URL Clicks.csv`
+- `page views over time.csv`
+- `referrers over time.csv`
+- `search terms over time.csv`
+- `views per ip over time.csv`
+
+### 5. Install Python Requirements
+Ensure you have Python installed (preferably Python 3.8 or later). Install the required Python packages using `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Jupyter Notebook
+Launch Jupyter Notebook and open the `Analysis_Notebook.ipynb` file:
+```bash
+jupyter notebook
+```
+
+### 7. Execute the Notebook
+Run the cells in the notebook sequentially to perform the analysis.
 
 ## Documentation
 ### Data Cleaning
